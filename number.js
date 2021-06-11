@@ -17,7 +17,7 @@ const number = {
         }
 
         const numberElement = document.createElement("div");
-        const numberValue = 512;
+        const numberValue = 2;
 
         numberElement.innerText = numberValue;
         numberElement.dataset.value = numberValue;
