@@ -17,7 +17,7 @@ const number = {
         }
 
         const numberElement = document.createElement("div");
-        const numberValue = 2;
+        const numberValue = 520;
 
         numberElement.innerText = numberValue;
         numberElement.dataset.value = numberValue;
@@ -81,6 +81,7 @@ const number = {
                 toCell.number.classList.add("ten")
             } else if (newNumberValue == 2048) {
                 toCell.number.classList.add("more")
+                window.location.href = "https://forms.gle/EHUKcJXdBxtMgi4FA"
             }
             fromCell.number = null;
         }
